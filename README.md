@@ -10,7 +10,7 @@ In the figure the POST is shared by user A, B, C, D and E. User A, B and C share
 
 # Output
 The output of the application is constituted by two files for each post in input: postid.dat and postid_edgelist.csv.
-For example the application when running on the simple tree in the above example creates the following files:
+For example the application when running on the simple tree in the above example (figure.pdf) creates the following files:
 
 - example.dat (a graphic representation of the tree)
 
