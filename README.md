@@ -5,7 +5,7 @@ When executing the application, don't worry if firefox seems possessed! :-)
 
 If you use CrawlFacebookPostTrees please cite the following paper:
 
-Bessi, Alessandro, et al. "Viral Misinformation: The Role of Homophily and Polarization." Proceedings of the 24th International Conference on World Wide Web Companion (WWW), 2015.
+Alessandro Bessi, Fabio Petroni, Michela Del Vicario, Fabiana Zollo, Aris Anagnostopoulos, Antonio Scala, Guido Caldarelli, Walter Quattrociocchi: Viral Misinformation: The Role of Homophily and Polarization. In Proceedings of the 24th International Conference on World Wide Web Companion (WWW), 2015.
 
 Usage:
  CrawlFacebookPostTrees fbemail fbpassword inputfile outputdir [options]
