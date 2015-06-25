@@ -1,5 +1,6 @@
 # CrawlFacebookPostTrees
 a crawler for Facebook post trees through web browser automation.
+
 When executing the application, don't worry if firefox seems possessed! :-)
 
 If you use CrawlFacebookPostTrees please cite the following paper:
