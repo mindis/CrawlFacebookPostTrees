@@ -1,5 +1,6 @@
 # CrawlFacebookPostTrees
 a crawler for Facebook post trees through web browser automation.
+When executing the application, don't worry if firefox seems possessed! :-)
 
 If you use CrawlFacebookPostTrees please cite the following paper:
 
@@ -16,7 +17,16 @@ Parameters:
 
 Options:
 - -random boolean  ->  specifies if the input file is processed sequentially (false) or in random order (true). Default false.
-java -Xmx§GB -jar RecSysMF.jar inputtrainfile [options]
+
+
+
+The following libraries are required (you can find the jar files in the dist/lib folder):
+
+- Selenium: http://www.seleniumhq.org
+- Guava: https://code.google.com/p/guava-libraries/
+- Apache HttpComponents: http://hc.apache.org/downloads.cgi
+
+WARNING: sobstitute the selenium jar file with the latest version available!
 
 # Example
 
