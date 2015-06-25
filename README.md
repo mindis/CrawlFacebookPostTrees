@@ -40,6 +40,9 @@ C,E
 
 Notice that also the date and time of the sharing event is stored for each edge.
 
+The input of the application is costitude by a text file with a list of Facebook post id, one per line.
+
+For example the post https://www.facebook.com/corrieredellasera/posts/10151940070436529 has id 284515247529_10151940070436529.
 
 If you use CrawlFacebookPostTrees please cite the following paper:
 
