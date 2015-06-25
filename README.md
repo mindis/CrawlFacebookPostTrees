@@ -3,6 +3,38 @@ a crawler for Facebook post trees through web browser automation.
 
 When executing the application, don't worry if firefox seems possessed! :-)
 
+
+
+The goal of the crawler is to download the share tree of each post in input.
+See figure.pdf for an example.
+In the figure the POST is shared by user A, B, C, D and E. User A, B and C share the post from the root (the original page that issued the post) while user D and E share the post through user C.
+The output of the application running on this simple example is constituded by two files:
+
+example.dat (a graphic representation of the tree)
+
+POST
+__A
+__B
+__C
+_____D
+_____E
+
+example_edgelist.csv (the edgelist representing the tree)
+
+POST,A
+
+POST,B
+
+POST,C
+
+C,D
+
+C,E
+
+
+Notice that also the date and time of the sharing event is stored for each edge.
+
+
 If you use CrawlFacebookPostTrees please cite the following paper:
 
 Alessandro Bessi, Fabio Petroni, Michela Del Vicario, Fabiana Zollo, Aris Anagnostopoulos, Antonio Scala, Guido Caldarelli, Walter Quattrociocchi: Viral Misinformation: The Role of Homophily and Polarization. In Proceedings of the 24th International Conference on World Wide Web Companion (WWW), 2015.
