@@ -9,7 +9,8 @@ See figure.pdf for an example of sharing tree.
 In the figure the POST is shared by user A, B, C, D and E. User A, B and C share the post from the root (the original page that issued the post) while user D and E share the post through user C.
 
 # Output
-The output of the application running on this simple example is constituded by two files:
+The output of the application is constituted by two files for each post in input: postid.dat and postid_edgelist.csv.
+For example the application when running on the simple tree in the above example creates the following files:
 
 - example.dat (a graphic representation of the tree)
 
