@@ -8,6 +8,7 @@ If you use CrawlFacebookPostTrees please cite the following paper:
 Alessandro Bessi, Fabio Petroni, Michela Del Vicario, Fabiana Zollo, Aris Anagnostopoulos, Antonio Scala, Guido Caldarelli, Walter Quattrociocchi: Viral Misinformation: The Role of Homophily and Polarization. In Proceedings of the 24th International Conference on World Wide Web Companion (WWW), 2015.
 
 Usage:
+
  CrawlFacebookPostTrees fbemail fbpassword inputfile outputdir [options]
 
 Parameters:
